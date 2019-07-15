@@ -14,7 +14,6 @@ const pricingRules = [
     price: 3.11,
     eligibleAmount: 0,
     discountedPrice: 0,
-    numberOfItems: 0,
     twoForOne: true
   },
   {
@@ -23,7 +22,6 @@ const pricingRules = [
     price: 5.0,
     eligibleAmount: 3,
     discountedPrice: 4.5,
-    numberOfItems: 0,
     twoForOne: false
   },
   {
@@ -32,7 +30,6 @@ const pricingRules = [
     price: 11.23,
     eligibleAmount: 0,
     discountedPrice: 0,
-    numberOfItems: 0,
     twoForOne: false
   }
 ];

@@ -36,3 +36,39 @@ Test Data:
 
     Basket: SR1, SR1, FR1, SR1
     Total price expected: £16.61
+
+//////////////////////////////////////////////////
+
+```sh
+to start the app
+yarn install
+yarn start
+no interface atm use console
+```
+
+```sh
+I believe this application can make the CEO and COO happy as it is super dynamic.
+> They can add more items
+> Apply get one buy one free to any item
+> Add bulk discount to any available item
+> And also it is easy to modify the price plan as it is on object format, JSON could've been better
+```
+
+```sh
+to modify the price plan access ./src/components/price-plan.js
+```
+
+```js
+//pricing plan structure
+
+this.schema = {
+  code: "", //item id
+  name: "", //item name
+  price: 0, //item original price
+  eligibleAmount: 0, //number of bulk amount required
+  discountedPrice: 0, //bulk price
+  twoForOne: false, // eligible for buy one get one free
+  //internal use
+  numberOfItems: 0 // number of items in the basket
+};
+```
